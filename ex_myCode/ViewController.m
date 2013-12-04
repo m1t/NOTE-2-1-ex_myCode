@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    int ans;
+    ans = 1 + 2 + 3;
+    NSLog(@"答え %d", ans);
 }
 
 - (void)didReceiveMemoryWarning
